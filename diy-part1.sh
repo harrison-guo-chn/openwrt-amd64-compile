@@ -15,6 +15,6 @@
 
 # Add a feed source
 git clone https://github.com/kenzok8/openwrt-packages
-git clonr https://github.com/kenzok8/small
+git clone https://github.com/kenzok8/small
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
