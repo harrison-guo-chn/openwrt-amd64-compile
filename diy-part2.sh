@@ -13,4 +13,4 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-#sed -i 's/root::0:0:99999:7:::/root:$1$kk2v0.7P$7dW0TV2PNTIRYwLVnxMQn/:0:0:99999:7:::/g' package/base-files/files/etc/shadow
+sed -i 'OpenWrt/CncTion N5105-4L/g' package/base-files/files/binconfig_generate
